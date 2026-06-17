@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #2b397a;
+            margin: 0;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        table {
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        td {
+            border: 1px solid #0891b2;
+            padding: 4px 12px;
+            text-align: center;
+            font-size: 12px;
+            min-width: 100px;
+        }
+
+        .logo-contenedor {
+            height: 30px;
+            margin-bottom: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo-contenedor img {
+            max-height: 100%;
+            width: auto;
+        }
+
+        .logo-contenedor img:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            color: #0369a1;
+            text-decoration: none;
+            font-weight: bold;
+            word-break: break-all; /* Evita que links largos rompan la tabla */
+        }
+
+        a:hover {
+            color: #0284c7;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td>
+                <a href="https://ssulapaz.org/" target="mainframe">
+                    <div class="logo-contenedor">
+                        <img src="../imagenes/ssu.png" alt="Logo SSU">
+                    </div>
+                    SSU
+                </a>
+            </td>
+            
+            <td>
+                <a href="https://www.cns.gob.bo/" target="mainframe">
+                    <div class="logo-contenedor">
+                        <img src="../imagenes/cns.png" alt="Logo CNS">
+                    </div>
+                    CNS
+                </a>
+            </td>
+            
+            <td>
+                <a href="https://www.covidvisualizer.com/" target="mainframe">
+                    <div class="logo-contenedor">
+                        <img src="../imagenes/covid.jpg" alt="Logo Covid">
+                    </div>
+                    Covid
+                </a>
+            </td>
+            
+            <td>
+                <a href="https://www.arcoiris.org.bo/" target="mainframe">
+                    <div class="logo-contenedor">
+                        <img src="../imagenes/hospital_arcoiris.jpg" alt="Logo Hospital Arco Iris">
+                    </div>
+                    H. Arcoiris
+                </a>
+            </td>
+            
+            <td>
+                <a href="https://www.cossmil.mil.bo/#/" target="mainframe">
+                    <div class="logo-contenedor">
+                        <img src="../imagenes/cossmil.jpg" alt="Logo Cossmil">
+                    </div>
+                    Cossmil
+                </a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
